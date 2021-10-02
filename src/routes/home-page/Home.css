@@ -1,0 +1,17 @@
+.home{
+    width: 100%;
+    height: auto;
+}
+
+.home__container{
+    width: 935px;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+}
+
+.home__wrapper{
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: 28px;
+}

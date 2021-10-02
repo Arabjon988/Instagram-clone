@@ -1,0 +1,149 @@
+.my-comment{
+    width: 300px;
+    position: relative;
+    height: 80vh;
+    background-color: #fff;
+    padding-top: 23px;
+}
+
+li{
+    margin-top: 10px;
+    margin-left: -30px;
+    list-style: none;
+    display: block;
+}
+
+li p{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 47, 48);
+}
+
+li h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(135, 152, 153);
+}
+
+.com-container{
+    background-color: #fff;
+    position: fixed;
+    padding-top: 40px;
+    width: 300px;
+    height: 89.3vh;
+}
+
+
+
+.my-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 293px;
+    height: 56px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+
+
+.my-profile svg{
+    color: rgb(131, 200, 202);
+    width: 56px;
+    height: 56px;
+}
+
+.my-profile span{
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.recom-you li{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recom-you li span{
+    font-size: 12px;
+    font-weight:500 ;
+}
+
+.subscribe{
+    margin-bottom: 10px;
+    width: 293px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+
+.human{
+    margin-top:10px ;
+    display: flex;
+    justify-content: space-around;
+}
+
+.human-logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.human-info{
+    margin-left: -45px ;
+    display: flex;
+    gap: 8px;
+}
+
+.person{
+    display: inline-block;
+    line-height: 5px;
+    margin-top: 10px;
+}
+
+.person-info{
+    cursor: pointer;
+}
+
+.person-info:hover{
+    text-decoration: underline;
+}
+
+.human-info p, .human button{
+    margin-top: 10px;
+}
+
+.human button{
+    outline: none;
+    border: none;
+    margin-right: -40px;
+    font-size: 16px;
+    background: none;
+    font-weight: 500;
+    color: cornflowerblue;
+}
+
+
+
+.ins-page{
+    width: 293px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.ins-page li{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(21, 226, 226);
+}
+
+.ins-help{
+    color: rgb(21, 226, 226);
+    padding-bottom: -50px;
+    font-size: 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,49 @@
+.actual{
+    padding-top: 200px;
+    width: 630px;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding-left: 40px;
+    margin-left: -15px;
+}
+
+.actual .pace{
+    position: absolute;
+    margin-left: -20px;
+    text-align: start;
+    align-items: center;
+}
+
+.actual-collection{
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 780px;
+    height: 293px;
+}
+
+.actual::-webkit-scrollbar{
+    display: none;
+}
+
+.actual-item{
+    position: relative;
+    min-width: 250px;
+    padding: 5px;
+    width: 250px;
+    border: 0.5px solid rgb(212, 210, 214);
+    border-radius: 5px;
+    height: 238px;
+}
+
+.actual-item-img{
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    border-radius: 50%;
+    border: chocolate;
+}

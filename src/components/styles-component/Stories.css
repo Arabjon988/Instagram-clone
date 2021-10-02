@@ -1,0 +1,30 @@
+.stories{
+    position: absolute ;
+    width: 614px;
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 118px;
+    border: 1px solid #c5c5c5;
+    margin-top: 55px;
+    background-color: #fff;
+}
+
+
+
+.story-human{
+    padding: 2px;
+    border-radius: 50%;
+    border: 3px solid rgba(71, 38, 8, 0.945);
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.story-human img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
