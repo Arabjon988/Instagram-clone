@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { auth } from '../../server/firebase'
+import './Login.css'
 import { useStateValue } from '../../context/stateprovider/StateProvider'
 
 function Login() {
@@ -21,29 +22,30 @@ function Login() {
             })
             .catch(err => console.log(err))
         e.preventDefault()
-        console.log(email, password)
     }
-
 
     const signInUser = (e) => {
         auth.signInWithEmailAndPassword(email, password)
-        .then(user => {
-            if(user){
-                dispatch({
-                    type: "SIGN_IN_USER",
-                    user: user.email
-                })
-            }
-        })
-        .catch(err => console.log(err))
+            .then(user => {
+                if (user) {
+                    dispatch({
+                        type: "SIGN_IN_USER",
+                        user: user.email
+                    })
+                }
+            })
+            .catch(err => console.log(err))
         e.preventDefault(user)
     }
 
 
     return (
         <div className="login">
+        <h3>Sign In Instagram</h3>
             <form>
+                <p>Login: </p>
                 <input type="email" placeholder="Username or email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                <p>Password:</p>
                 <input type="password" id="#" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
                 <button onClick={registerUser}>Create user</button>
                 <button onClick={signInUser}>Sign In</button>

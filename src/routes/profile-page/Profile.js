@@ -6,7 +6,9 @@ function Profile() {
     return (
         <div className="profile">
         <Header/>
-            <h3>This is profile file</h3>
+        <div className="profile-container">
+        <h3>This is profile file</h3>
+        </div>
         </div>
     )
 }

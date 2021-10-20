@@ -3,10 +3,8 @@ import Home from './routes/home-page/Home';
 import Login from './routes/login-page/Login';
 import Messenger from './routes/messenger/Messenger';
 import Composs from './routes/compos/Composs';
-// import Like from './routes/like/Like';
 import Profile from './routes/profile-page/Profile';
 import { useStateValue } from './context/stateprovider/StateProvider';
-// import SignUp from './routes/signUp/SignUp';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
